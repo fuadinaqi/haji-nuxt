@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --color-primary-main: #3e5f44;
+  --color-secondary-main: #5e936c;
+  --color-tertiary-main: #93da97;
+  --color-primary-light: #f9fff5;
+  --color-secondary-light: #ffffff;
+}
+
+:root {
+  --ui-primary: #3e5f44;
+}
+
+body {
+  background-color: var(--color-secondary-light);
+  color: #000;
+  max-width: 1000px;
+  margin: 0 auto;
+}
