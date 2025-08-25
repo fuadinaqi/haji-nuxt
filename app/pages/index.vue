@@ -105,7 +105,7 @@ const dynamicMenus = [
 
     <!-- Fixed Menu Grid -->
     <section class="mx-2 rounded-md p-2">
-      <div class="grid grid-cols-4 gap-2">
+      <div class="grid grid-cols-4 gap-4">
         <MenuItemComponent
           v-for="menu in fixedMenus"
           :key="menu.name"
@@ -127,7 +127,7 @@ const dynamicMenus = [
 
     <!-- Dynamic Menu Grid -->
     <section class="mx-2 rounded-md p-2">
-      <div class="grid grid-cols-4 gap-2">
+      <div class="grid grid-cols-4 gap-4">
         <MenuItemComponent
           v-for="menu in dynamicMenus"
           :key="menu.name"
