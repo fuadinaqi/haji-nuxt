@@ -58,10 +58,10 @@ const handleClockOut = () => {
       class="from-primary-light min-h-[calc(100vh-60px)] bg-gradient-to-b to-white pb-8"
     >
       <!-- Header -->
-      <div class="mx-4 pt-6 pb-4 text-center">
-        <h1 class="text-2xl font-bold text-gray-800">Presensi</h1>
-        <p class="mt-1 text-gray-600">Sistem pencatatan kehadiran karyawan</p>
-      </div>
+      <PageTitleComponent
+        title="Presensi"
+        description="Sistem pencatatan kehadiran karyawan"
+      />
 
       <!-- Time Display Card -->
       <div class="mx-4 mb-6">

@@ -1,5 +1,5 @@
 <template>
-  <AuthLoader />
+  <AuthLoaderComponent />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>

@@ -5,7 +5,6 @@ definePageMeta({
 
 const { menu, getMenuIcon, activeTab, handleMenuSelect } = useKepegawaian();
 const MENU = menu.value;
-const { logout } = useAuth();
 </script>
 
 <template>
@@ -16,27 +15,14 @@ const { logout } = useAuth();
       </NuxtLink>
     </template>
 
-    <template #user-profile>
-      <UButton
-        color="gray"
-        variant="ghost"
-        icon="lucide:log-out"
-        @click="logout"
-      >
-        Logout
-      </UButton>
-    </template>
-
     <div
       class="from-primary-light min-h-[calc(100vh-60px)] bg-gradient-to-b to-white pb-8"
     >
       <!-- Header -->
-      <div class="mx-4 pt-6 pb-4 text-center">
-        <h1 class="text-2xl font-bold text-gray-800">Kepegawaian</h1>
-        <p class="mt-1 text-gray-600">
-          Manajemen data kepegawaian dan administrasi
-        </p>
-      </div>
+      <PageTitleComponent
+        title="Kepegawaian"
+        description="Manajemen data kepegawaian dan administrasi"
+      />
 
       <!-- Dropdown Menu Navigation -->
       <div class="mx-4 mb-6">

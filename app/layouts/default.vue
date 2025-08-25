@@ -10,9 +10,18 @@
               <h1 class="text-lg font-semibold text-gray-800">Hi, John Doe</h1>
             </div>
           </div>
-          <div class="flex items-center space-x-4">
+          <div class="flex items-center gap-4">
             <slot name="user-profile">
-              <NuxtLink to="/kepegawaian/profil">
+              <NuxtLink to="/notifikasi">
+                <button>
+                  <UIcon
+                    name="material-symbols:notifications-outline-rounded"
+                    size="24"
+                    class="text-primary-main"
+                  />
+                </button>
+              </NuxtLink>
+              <NuxtLink to="/profil">
                 <button>
                   <UIcon
                     name="material-symbols:account-circle"

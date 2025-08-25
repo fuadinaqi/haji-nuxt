@@ -72,12 +72,16 @@ const closeForms = () => {
       class="from-primary-light min-h-[calc(100vh-60px)] bg-gradient-to-b to-white pb-8"
     >
       <!-- Header -->
-      <div class="mx-3 pt-4 pb-3 text-center sm:mx-4 sm:pt-6 sm:pb-4">
+      <!-- <div class="mx-3 pt-4 pb-3 text-center sm:mx-4 sm:pt-6 sm:pb-4">
         <h1 class="text-xl font-bold text-gray-800 sm:text-2xl">Persuratan</h1>
         <p class="mt-1 text-sm text-gray-600 sm:text-base">
           Sistem pengelolaan surat dan disposisi
         </p>
-      </div>
+      </div> -->
+      <PageTitleComponent
+        title="Persuratan"
+        description="Sistem pengelolaan surat dan disposisi"
+      />
 
       <!-- Content Area -->
       <div class="mx-3 mt-4 sm:mx-4">

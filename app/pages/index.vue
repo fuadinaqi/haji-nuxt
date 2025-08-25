@@ -106,7 +106,7 @@ const dynamicMenus = [
     <!-- Fixed Menu Grid -->
     <section class="mx-2 rounded-md p-2">
       <div class="grid grid-cols-4 gap-2">
-        <MenuItem
+        <MenuItemComponent
           v-for="menu in fixedMenus"
           :key="menu.name"
           :name="menu.name"
@@ -116,7 +116,7 @@ const dynamicMenus = [
           <template #icon>
             <UIcon :name="menu.icon" class="h-8/12 w-8/12 text-white" />
           </template>
-        </MenuItem>
+        </MenuItemComponent>
       </div>
     </section>
 
@@ -128,7 +128,7 @@ const dynamicMenus = [
     <!-- Dynamic Menu Grid -->
     <section class="mx-2 rounded-md p-2">
       <div class="grid grid-cols-4 gap-2">
-        <MenuItem
+        <MenuItemComponent
           v-for="menu in dynamicMenus"
           :key="menu.name"
           :name="menu.name"
@@ -138,7 +138,7 @@ const dynamicMenus = [
           <template #icon>
             <UIcon :name="menu.icon" class="h-8/12 w-8/12 text-white" />
           </template>
-        </MenuItem>
+        </MenuItemComponent>
       </div>
     </section>
   </div>

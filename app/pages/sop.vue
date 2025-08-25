@@ -131,14 +131,10 @@ const handleDownload = (sop) => {
       class="from-primary-light min-h-[calc(100vh-60px)] bg-gradient-to-b to-white pb-8"
     >
       <!-- Header -->
-      <div class="mx-3 pt-4 pb-3 text-center sm:mx-4 sm:pt-6 sm:pb-4">
-        <h1 class="text-xl font-bold text-gray-800 sm:text-2xl">
-          Standar Operasional Prosedur (SOP)
-        </h1>
-        <p class="mt-1 text-sm text-gray-600 sm:text-base">
-          Dokumen standar operasional prosedur organisasi
-        </p>
-      </div>
+      <PageTitleComponent
+        title="SOP"
+        description="Dokumen standar operasional prosedur organisasi"
+      />
 
       <!-- Search and Filter -->
       <div class="mx-3 mb-4 sm:mx-4 sm:mb-6">
