@@ -15,25 +15,25 @@ onMounted(() => {
 const fixedMenus = [
   {
     name: "Presensi",
-    icon: "lucide:alarm-clock-check",
+    icon: "ph:alarm-fill",
     class: "bg-emerald-500",
     to: "/presensi",
   },
   {
     name: "Kepegawaian",
-    icon: "lucide:users",
+    icon: "ph:user-square-fill",
     class: "bg-teal-500",
     to: "/kepegawaian/profil",
   },
   {
     name: "Persuratan",
-    icon: "lucide:file-text",
+    icon: "ph:envelope-simple-open-fill",
     class: "bg-green-500",
     to: "/persuratan",
   },
   {
     name: "SOP",
-    icon: "lucide:newspaper",
+    icon: "ph:files-fill",
     class: "bg-lime-500",
     to: "/sop",
   },
@@ -42,19 +42,19 @@ const fixedMenus = [
 const dynamicMenus = [
   {
     name: "Hyperlink 1",
-    icon: "lucide:chart-bar",
+    icon: "ph:fingerprint-simple-fill",
     class: "bg-emerald-600",
     to: "https://www.google.com",
   },
   {
     name: "Hyperlink 2",
-    icon: "lucide:settings",
+    icon: "ph:text-align-justify-fill",
     class: "bg-teal-600",
     to: "https://www.google.com",
   },
   {
     name: "Hyperlink 3",
-    icon: "lucide:info",
+    icon: "ph:map-pin-area-fill",
     class: "bg-green-600",
     to: "https://www.google.com",
   },
@@ -114,7 +114,7 @@ const dynamicMenus = [
           :to="menu.to"
         >
           <template #icon>
-            <UIcon :name="menu.icon" class="h-8/12 w-8/12 text-white" />
+            <UIcon :name="menu.icon" class="text-primary-main h-6/12 w-6/12" />
           </template>
         </MenuItemComponent>
       </div>
@@ -136,7 +136,7 @@ const dynamicMenus = [
           :to="menu.to"
         >
           <template #icon>
-            <UIcon :name="menu.icon" class="h-8/12 w-8/12 text-white" />
+            <UIcon :name="menu.icon" class="text-primary-main h-6/12 w-6/12" />
           </template>
         </MenuItemComponent>
       </div>

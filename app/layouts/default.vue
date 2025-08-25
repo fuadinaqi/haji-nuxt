@@ -15,7 +15,7 @@
               <NuxtLink to="/notifikasi">
                 <button>
                   <UIcon
-                    name="material-symbols:notifications-outline-rounded"
+                    name="ph:bell-simple-fill"
                     size="24"
                     class="text-primary-main"
                   />

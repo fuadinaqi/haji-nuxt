@@ -2,15 +2,16 @@
 @import "@nuxt/ui";
 
 @theme static {
-  --color-primary-main: #3e5f44;
+  --color-primary-main: #1f7b68;
   --color-secondary-main: #5e936c;
   --color-tertiary-main: #93da97;
   --color-primary-light: #f9fff5;
+  --color-primary-light-2: #d1f5e8;
   --color-secondary-light: #ffffff;
 }
 
 :root {
-  --ui-primary: #3e5f44;
+  --ui-primary: #1f7b68;
 }
 
 body {

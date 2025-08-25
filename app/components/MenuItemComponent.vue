@@ -21,8 +21,7 @@ defineProps({
     :to="to"
   >
     <div
-      class="flex size-12 h-full max-h-[150px] w-full max-w-[150px] items-center justify-center rounded-2xl"
-      :class="className"
+      class="bg-primary-light-2 flex h-full max-h-[150px] w-full max-w-[150px] items-center justify-center rounded-2xl"
     >
       <slot name="icon" />
     </div>
